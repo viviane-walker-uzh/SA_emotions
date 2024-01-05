@@ -28,7 +28,7 @@ df_awe = data.frame(
 )
 
 # read awe keywords in
-awe_keywords <- scan(here("awe_keywords.txt"), what = "token", sep = ",")
+awe_keywords <- scan(here("keywords/awe_keywords.txt"), what = "token", sep = ",")
 
 
 # loop through keywords and extract posts from r/de with keywords
@@ -47,7 +47,7 @@ for (keyword in awe_keywords) {
   }
 }
 # export as csv
-write.csv(df_awe, "awe_reddit_data.csv", row.names = FALSE)
+write.csv(df_awe, "data/awe_reddit_data.csv", row.names = FALSE)
 
 
 #### GRATITUDE ####
@@ -65,7 +65,7 @@ df_gratitude = data.frame(
 )
 
 # read gratitude keywords in
-gratitude_keywords <- scan(here("gratitude_keywords.txt"), what = "token", sep = ",")
+gratitude_keywords <- scan(here("keywords/gratitude_keywords.txt"), what = "token", sep = ",")
 
 
 # loop through keywords and extract posts from r/de with keywords
@@ -102,7 +102,7 @@ df_hope = data.frame(
 )
 
 # read hope keywords in
-hope_keywords <- scan(here("data/hope_keywords.txt"), what = "token", sep = ",")
+hope_keywords <- scan(here("keywords/hope_keywords.txt"), what = "token", sep = ",")
 
 
 # loop through keywords and extract posts from r/de with keywords
@@ -122,6 +122,3 @@ for (keyword in hope_keywords) {
 }
 # export as csv
 write.csv(df_hope, "data/hope_reddit_data.csv", row.names = FALSE)
-
-
-
