@@ -1,4 +1,4 @@
-# Dictionary file
+# Original Dictionary (Ji & Raney, 2020)
 *.dic
 
 
@@ -9,6 +9,7 @@
 # Environments
 .venv/
 
-# Apple Mac stuff
+
+# Apple stuff
 .DS_Store
 
