@@ -1,6 +1,5 @@
-# SA_emotions
-Sentiment Analysis of Self-Transcendence Emotions
-This repository is part of the student project for the Seminar Language Technology for Social Media Analysis
+# Sentiment Analysis of Self-Transcendence Emotions
+This repository is part of the term project and paper for the Seminar Language Technology for Social Media Analysis
 
 Semester: Autumn 2023
 
@@ -24,4 +23,6 @@ Note: The keywords are German translations from the original self-transcendence 
 
 
 
-Qihao Ji and Arthur A Raney. 2020. Developing and validating the    self-transcendent emotion dictionary for text analysis. PloS one, 15(9):e0239050.
+Qihao Ji and Arthur A Raney. 2020. Developing and validating the
+    self-transcendent emotion dictionary for text analysis.
+    PloS one, 15(9):e0239050.
